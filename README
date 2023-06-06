@@ -1,0 +1,11 @@
+This project proposes a pre-training model that can integrate knowledge graph completion and question-answering tasks, 
+and emphatically tests the application of this model in question-answering in the field of Chinese medical diagnosis. 
+
+Without the use of other pre-training corpus and pre-training model parameters,
+the model can complete the parameterized embedding and derivation of triplet knowledge. 
+
+The performance of MRR in the Wikipedia atlas completion task is close to that of TransE, 
+but the number of parameters is only 20.8% of the latter. 
+
+In the case of providing certain question-and-answer function, the number of parameters is limited to 50M, 
+which greatly saves computing resources and is conducive to the expansion and update of knowledge graph.
